@@ -3,7 +3,7 @@ let summe = 0;
 let anzahlNoten= 0;
 let ergebnis;
 
-
+//refactor auf -> notenAuslesen()
 
 function tfAuslesen(){
     anzahlNoten = 0
@@ -23,7 +23,10 @@ function tfAuslesen(){
     eingabeUeberpruefen(n4)
     eingabeUeberpruefen(n5)
 
-ergebnis = summe/anzahlNoten;
+    //refactor auf -> notenAuslesen()
+
+
+    ergebnis = summe/anzahlNoten;
 
     document.getElementById("ausgabe"). innerHTML = ergebnis;
     document.getElementById("ausgabe").style.color = "crimson"
